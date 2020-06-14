@@ -22,6 +22,15 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Anotações
+Arquivos de um Component
+ 1 - app.component.css => Folha de estilo e layout do component, (ESTILO)
+ 2 - app.component.html => Grade de visualização do component, (VISÃO)
+ 3 - app.component.ts => Comportamento do component, (COMPORTAMENTO)
+ 4 - app.component.spec.ts => Arquivo de teste do component, (TESTE)
+ 5 - app.module.ts = Arquivo de configuração do component (CONFIGURAÇÃO METADATAS)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Variantes de Binds
+() => HTML > TS     
+[] => TS > HTML     
+[()] => TS <> THML
