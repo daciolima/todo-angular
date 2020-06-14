@@ -25,19 +25,19 @@ export class AppComponent {
         this.title = 'David';
     }
 
-    removeItem(todo: Todo) {
-        const index = this.todos.indexOf(todo);
+    removeItem(item: Todo) {
+        const index = this.todos.indexOf(item);
         if (index !== -1) {
             this.todos.splice(index, 1);
         }
     }
 
-    markAsDone() {
-
+    markAsDone(item: Todo) {
+        item.done = true;
     }
 
-    markAsUndone() {
-
+    markAsUndone(item: Todo) {
+        item.done = false;
     }
 
 
