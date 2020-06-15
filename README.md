@@ -6,6 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Serve IP external
+
+Run `ng serve --host <ip>` for a dev server. Navigate to `http://<ip>:4200`.
+The app will automatically reload if you change any of the source files.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
@@ -31,6 +36,6 @@ Arquivos de um Component
  5 - app.module.ts = Arquivo de configuração do component (CONFIGURAÇÃO METADATAS)
 
 Variantes de Binds
-() => HTML > TS     
-[] => TS > HTML     
-[()] => TS <> THML
+() => HTML for TS     
+[] => TS for HTML     
+[()] => TS <-> THML
